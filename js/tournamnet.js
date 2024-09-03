@@ -142,7 +142,6 @@ function matchSimulation(firstTeam, secondTeam) {
     loser = firstTeam;
   }
 
-  // Ažuriranje statistike
   winner.Wins++;
   loser.Losses++;
 
@@ -152,7 +151,6 @@ function matchSimulation(firstTeam, secondTeam) {
   loser.PointsScored += loser === firstTeam ? teamOnePoints : teamTwoPoints;
   loser.PointsConceded += loser === firstTeam ? teamTwoPoints : teamOnePoints;
 
-  // Dodeljivanje bodova
   winner.Points += 2;
   loser.Points += 1;
 
@@ -221,7 +219,7 @@ function createEliminationDraw(groups) {
     const group = groups[groupName];
     for (let i = 0; i < group.length; i++) {
       if (!rankings[i + 1]) {
-        rankings[i + 1] = []; // Ensure that the array is initialized
+        rankings[i + 1] = [];
       }
       rankings[i + 1].push(group[i]);
     }
@@ -236,7 +234,6 @@ function createEliminationDraw(groups) {
   console.log("Šešir E:", potE.map((team) => team.Team).join(", "));
   console.log("Šešir F:", potF.map((team) => team.Team).join(", "));
 
-  // Generisanje parova četvrtfinala
   const quarterFinalPairs = [
     [potD[0], potF[1]],
     [potD[1], potF[0]],
