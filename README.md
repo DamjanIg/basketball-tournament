@@ -6,4 +6,4 @@
 ## O aplikaciji
 
 - Ova aplikacija je deo zadatak za prkasu u kompaniji Codebehind.
-- Aplikacija simulira Olimpijski kosarkaski turnir na osnovu fiba rank liste ucesnika Olipmijkog turnira.
+- Aplikacija simulira Olimpijski kosarkaski turnir na osnovu fiba rank liste ucesnika Olimpijkog turnira.
