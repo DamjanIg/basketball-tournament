@@ -1,0 +1,14 @@
+{
+  "name": "basketball-tournamnet",
+  "version": "1.0.0",
+  "description": "Basketball tournament simulator",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Damjan Ignjatic",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
