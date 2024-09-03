@@ -1,7 +1,7 @@
 # Koraci za pokretanje aplikacije
 
 - Da bi se aplikacija pokrenula potrebno je instalirati node module - npm i.
-- Nakon instalacije node module-a program se pokrece sa komandom npm start.
+- Nakon instalacije node module-a, aplikacija se pokrece sa komandom npm start.
 
 ## O aplikaciji
 
